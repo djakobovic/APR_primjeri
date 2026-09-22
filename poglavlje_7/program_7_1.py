@@ -1,6 +1,6 @@
 # program_7_1.py
 '''
-   Odziv RC sklopa na skok ulaznog napona 
+Odziv RC sklopa na skok ulaznog napona 
 '''
 import numpy as np
 from scipy.integrate import solve_ivp
@@ -14,10 +14,10 @@ K = 1
 if __name__ == '__main__':
     fig,(ax0,ax1) = plt.subplots(1,2,figsize=(9,4),layout='constrained')
     ax0.set(title='Odziv RC sklopa na skok veličine K=1',
-           xlabel='t', ylabel='u_iz(t)',
+            xlabel='t', ylabel='u_iz(t)',
             xlim=(t_0,t_f),ylim=(0,K))
     ax1.set(title='Odziv CR sklopa na skok veličine K=1',
-           xlabel='t', ylabel='u_iz(t)',
+            xlabel='t', ylabel='u_iz(t)',
             xlim=(t_0,t_f),ylim=(0,K))
 
     def rcsklop(t,x,R):

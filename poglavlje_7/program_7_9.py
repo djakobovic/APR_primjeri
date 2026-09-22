@@ -1,9 +1,8 @@
-
 # primjer_7_9.py
 '''
-   Rješenje Moore-Spiegelove diferencijalne jednadžbe
-   trećeg reda
-      d3y/dt3+d2y/dt2 + (a-b+b*y**2)*dy/dt + a*y = 0
+Rješenje Moore-Spiegelove diferencijalne jednadžbe
+trećeg reda
+    d3y/dt3+d2y/dt2 + (a-b+b*y**2)*dy/dt + a*y = 0
 '''
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,7 +31,7 @@ if __name__ == '__main__':
         y = sol.y[0, : ]
 # Grafički prikaz rješenja varijable y(t)
         axs[r,s].set(title=f'Rješenje Moore-Spiegelove jednadžbe'+'\n'+
-                        f'uz a = {a:5.1f}, b = {b:5.1f}')
+                     f'uz a = {a:5.1f}, b = {b:5.1f}')
         axs[r,s].plot(te,y,lw=1.0)
         axs[0,0].set(ylabel=f'y(t)')
         axs[1,0].set(ylabel=f'y(t)')

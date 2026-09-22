@@ -1,6 +1,6 @@
 # program_7_2.py
 '''
-   Odziv LCR sklopa na skok ulaznog napona 
+Odziv LCR sklopa na skok ulaznog napona 
 '''
 import numpy as np
 from scipy.integrate import solve_ivp
@@ -18,7 +18,7 @@ def odziv_LCR(L,C,R):
     sol = solve_ivp(LCRsklop,[0,t_f],[0,0],method='LSODA',t_eval=te,args=(R,))
 # grafički prikaz ulaznog i izlaznog napona
     axs[r,s].set(title=f'u_ul i u_iz uz L={L}, C={C}, R={R}',
-            xlabel='t',ylabel='u_ul(t),u_iz(t)')
+                 xlabel='t',ylabel='u_ul(t),u_iz(t)')
     axs[r,s].plot(te,u_ul,'k--',lw=1.0,label='u_ul')
     u_iz = sol.y[0, : ]
     axs[r,s].plot(te,u_iz,'r-',lw=1.0,label='u_iz')
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     K = 1.
     u_ul = K * np.ones(m)
     for j in range(4):
-        R=RJ[j]
+        R = RJ[j]
         odziv_LCR(L,C,R)
 
     fig.savefig('sl.7.7.pdf')

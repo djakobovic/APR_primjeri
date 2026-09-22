@@ -1,9 +1,9 @@
 # program_7_8.py
 '''
-   Rješavanje sustava Lorenzovih diferencijalnih jednadžbi
-      dx/dt = a*(y - x)
-      dy/dt = x*(b - z) - y
-      dz/dt = x*y - c*z
+Rješavanje sustava Lorenzovih diferencijalnih jednadžbi
+    dx/dt = a*(y - x)
+    dy/dt = x*(b - z) - y
+    dz/dt = x*y - c*z
 '''
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         x = sol.y[0, : ]; y = sol.y[1, : ]; z = sol.y[2, : ]
 # Grafički prikaz rješenja varijable x(t)
         axs[r,s].set(title=f'Rješenje x(t) Lorenzova sustava uz'+'\n'+
-                        f'x(0)={x1_0}, y(0)={x2_0:7.6f}, z(0)={x3_0}')
+                     f'x(0)={x1_0}, y(0)={x2_0:7.6f}, z(0)={x3_0}')
         axs[r,s].plot(te,x,lw=1.0)
         axs[0,0].set(ylabel=f'x(t)')
         axs[1,0].set(ylabel=f'x(t)')

@@ -1,7 +1,7 @@
 # program_7_7.py
 '''
-   Vremensko ponašanje njihala
-      d2theta/dt2 = -(g/L)*sin(theta)
+Vremensko ponašanje njihala
+    d2theta/dt2 = -(g/L)*sin(theta)
 '''
 import numpy as np
 from scipy.integrate import solve_ivp

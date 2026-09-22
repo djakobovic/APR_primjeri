@@ -1,7 +1,7 @@
 # program_7_3.py
 '''
-   Izračunavanje nultočaka polinoma
-       s**n + a_n-2*s**(n-1)+a_n-2*s**(n-2)+...+a_2*s**2+a_1*s+a_0
+Izračunavanje nultočaka polinoma
+    s**n + a_n-2*s**(n-1)+a_n-2*s**(n-2)+...+a_2*s**2+a_1*s+a_0
 '''
 import numpy as np
 import scipy.linalg as sla

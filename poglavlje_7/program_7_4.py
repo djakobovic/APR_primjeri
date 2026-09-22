@@ -1,9 +1,9 @@
 # program_7_4.py
 '''
-   Rastav racionalne funkcije
-      1/((s-s_0)(s-s_1)...(s-s_i)...(s-s_n-1))
-   na parcijalne razlomke
-       C_0/(s-s_0) + C_1/(s-s_1)+ ...+ C_i/(s-s_i)+...C_n-1/(s-s_n-1)
+Rastav racionalne funkcije
+   1/((s-s_0)(s-s_1)...(s-s_i)...(s-s_n-1))
+na parcijalne razlomke
+    C_0/(s-s_0) + C_1/(s-s_1)+ ...+ C_i/(s-s_i)+...C_n-1/(s-s_n-1)
 '''
 import numpy as np
 

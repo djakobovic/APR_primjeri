@@ -1,6 +1,6 @@
 # program_7_5.py
 '''
-   Rješenja diferencijalne jednadžbe dx/dt = a*x+b
+Rješenja diferencijalne jednadžbe dx/dt = a*x+b
 '''
 import numpy as np
 import matplotlib.pyplot as plt
