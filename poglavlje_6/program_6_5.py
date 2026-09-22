@@ -1,9 +1,9 @@
 # program_6_5.py
 '''
-    Rješenje diferencijalne jednadžbe
-        dx(t)/dt = -0.25*x(t) + r(t)
-        r(t) = np.cos(3*t)
-    uz početni uvjet x[0] = -1.
+Rješenje diferencijalne jednadžbe
+    dx(t)/dt = -0.25*x(t) + r(t)
+    r(t) = np.cos(3*t)
+uz početni uvjet x[0] = -1.
 '''
 import numpy as np
 from scipy.integrate import solve_ivp

@@ -11,7 +11,6 @@ i usporediti ga s poznatim analitičkim rješenjem
 '''
 import numpy as np
 import matplotlib.pyplot as plt
-
 plt.rc('mathtext',fontset='stix')
 
 '''
@@ -22,7 +21,6 @@ def fun(a,b,c,t):
 
 def der_fun(a,b,t):
     return 2*a*t+b
-
 
 if __name__ == '__main__':
     t_0 = 0.; t_f = 10.
@@ -35,13 +33,13 @@ if __name__ == '__main__':
     t_gr = (t_0,t_f)
     x_gr = (0,fun(a,b,c,t_f))
     axs[0].set(title=r'Grafički prikaz funkcije'+'\n'+r'$x=0.4t^2+0.1t+1$',
-            ylabel='x(t)')        
+               ylabel='x(t)')        
     axs[1].set(title=r'Rješenja diferencijalne jednadžbe'+'\n'+r'$dx/dt=0.8t+0.1$',
-           xlabel=r't',ylabel='x(t)')
+               xlabel=r't',ylabel='x(t)')
     for i in range(2):
         axs[i].set(xlim=t_gr,ylim=x_gr,xticks=[],yticks=[])
         axs[i].set_xticks([0,1,2,3,4,5,6,7,8,9,10],
-                           [r'0',r'1',r'2',r'3',r'4',r'5',r'6',r'7',r'8',r'9',r'10'])
+                          [r'0',r'1',r'2',r'3',r'4',r'5',r'6',r'7',r'8',r'9',r'10'])
         axs[i].set_yticks([0,5,10,15,20,25,30,35,40],
                           [r'0',r'5',r'10',r'15',r'20',r'25',r'30',r'35',r'40'])
         axs[i].grid(axis='both',c='gray',ls=':',lw=0.5)
