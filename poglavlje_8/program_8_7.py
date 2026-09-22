@@ -1,6 +1,6 @@
 # program_8_7.py
 '''
-Pretrazivanje po koordinatnim osima
+Pretraživanje po koordinatnim osima
 '''
 import matplotlib.pyplot as plt
 import program_8_6 as f2d

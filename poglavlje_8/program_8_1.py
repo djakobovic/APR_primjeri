@@ -1,6 +1,6 @@
 # program_8_1.py
 '''
-    Zbirka s 12 funkcija jedne varijable prikazane u intervalima [a,b]
+Zbirka s 12 funkcija jedne varijable prikazane u intervalima [a,b]
 '''
 import numpy as np
 import matplotlib.pyplot as plt

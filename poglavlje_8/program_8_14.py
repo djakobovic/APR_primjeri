@@ -1,6 +1,6 @@
 # program_8_14.py
 '''
-Optimizacija problema s ogranicenjima metodom kazne i barijere
+Optimizacija problema s ograničenjima metodom kazne i barijere
 '''
 import matplotlib.pyplot as plt
 from matplotlib import patheffects

@@ -1,6 +1,6 @@
 # program_8_5.py
 '''
-Primjer minimizacije iz razlicitih pocetnih tocaka
+Primjer minimizacije iz različitih početnih točaka
 '''
 import matplotlib.pyplot as plt
 import program_8_1 as f1d
@@ -17,9 +17,9 @@ if __name__ == '__main__':
         a, b = unimodalni(f, x0, 0.5)
         ax.axvline(a, c='b',ls=':',lw=0.5)
         ax.axvline(b, c='b',ls=':',lw=0.5)
-        print(f'Pocetne granice intervala: [{a}, {b}]')
+        print(f'Početne granice intervala: [{a}, {b}]')
         c, d = zlatni_rez(f, a, b, eps = 0.001, koraci = 0)
-        print(f'Konacne granice intervala: [{c:g}, {d:g}]')
+        print(f'Konačne granice intervala: [{c:g}, {d:g}]')
         f1d.crtaj_funkciju(ax, f, ime, a-1, b+1)
         ax.axvline((c + d)/2, c='k',ls='--',lw=0.8)
         ax.plot((c + d)/2, f((c + d)/2),'ko',ms=4)

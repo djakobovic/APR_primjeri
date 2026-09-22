@@ -1,6 +1,6 @@
 # program_8_11.py
 '''
-Postupak najbrzeg (gradijentnog) spusta
+Postupak najbržeg (gradijentnog) spusta
 '''
 import matplotlib.pyplot as plt
 import program_8_6 as f2d

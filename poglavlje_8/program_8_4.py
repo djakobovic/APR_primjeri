@@ -1,6 +1,6 @@
 # program_8_4.py
 '''
-Pronalazenje minimuma kvadratnom interpolacijom
+Pronalaženje minimuma kvadratnom interpolacijom
 '''
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ def kvadratna_interpolacija(f, a, b, eps = 0.001, koraci = 0):
     return d
 
 if __name__ == '__main__':
-    print('Pronalazenje minimuma kvadratnom interpolacijom')
+    print('Pronalaženje minimuma kvadratnom interpolacijom')
     f, ime = f1d.f7, f1d.f7_ime
     #f, ime = f1d.f8, f1d.f8_ime
     a = -1;  b = 3; eps = 0.001

@@ -1,6 +1,6 @@
 # program_8_2.py
 '''
-Pronalazenje pocetnog unimodalnog intervala
+Pronalaženje početnog unimodalnog intervala
 '''
 import matplotlib.pyplot as plt
 import program_8_1 as f1d

@@ -1,4 +1,7 @@
 # program_8_15.py
+'''
+Algoritam po Box-u za probleme s ograničenjima
+'''
 import matplotlib.pyplot as plt
 from matplotlib import patheffects
 import numpy as np
