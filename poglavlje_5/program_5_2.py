@@ -1,6 +1,6 @@
 # program_5_2.py
 '''
-Valni oblici napona i struja kroz impedancije Z1 i Z2.
+Valni oblici napona i struja kroz impedancije Z1 i Z2
 '''
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,4 +56,3 @@ if __name__ == '__main__':
 
     fig.savefig('sl.5.9.pdf')
     fig.show()
-    

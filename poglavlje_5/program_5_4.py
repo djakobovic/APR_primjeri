@@ -1,7 +1,7 @@
 # program_5_4.py
 '''
-   Amplitudne karakteristike LCR filtara uz različite
-   vrijednosti otpora R.
+Amplitudne karakteristike LCR filtara uz različite
+vrijednosti otpora R.
 '''
 import numpy as np
 import matplotlib.pyplot as plt

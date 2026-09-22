@@ -1,6 +1,6 @@
 # program_5_1.py
 '''
-Valni oblici napona i struja kroz otpornik R, induktivitet L i kapacitet C.
+Valni oblici napona i struja kroz otpornik R, induktivitet L i kapacitet C
 '''
 import numpy as np
 import matplotlib.pyplot as plt
