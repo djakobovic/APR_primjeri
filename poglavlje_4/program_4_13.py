@@ -1,6 +1,6 @@
 # program_4_13.py
 '''
-Razlaganje matrice A na gornju trotastu matricu U, donju trokutastu matricu L
+Razlaganje matrice A na gornju trokutastu matricu U, donju trokutastu matricu L
 i permutacijsku matricu P uporabom funkcije lu() modula scipy.linalg
 '''
 import numpy as np

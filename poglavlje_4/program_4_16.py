@@ -1,7 +1,7 @@
 # program_4_16.py
 '''
 Rješavanje sustava Ax = b razlaganjem na matrice L i U,
-te postupcima supstitucije unaprijed i supstitucije nazad
+te postupcima supstitucije unaprijed i supstitucije unatrag
 '''
 import numpy as np
 import scipy.linalg as sla

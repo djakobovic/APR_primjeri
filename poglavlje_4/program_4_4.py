@@ -26,7 +26,7 @@ def ispis(s0,s1,s):
 \n{v/np.sqrt((v.T@v)[0,0])}')
 
 if __name__=='__main__':
-      s0 = 30
-      s1 = 40
-      s2 = 50
-      ispis(s0,s1,s2)
+    s0 = 30
+    s1 = 40
+    s2 = 50
+    ispis(s0,s1,s2)

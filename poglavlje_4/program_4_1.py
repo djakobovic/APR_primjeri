@@ -17,9 +17,3 @@ if __name__=='__main__':
     B = np.arange(6,12).reshape(2,3)
     C = A.reshape(3,2)
     ispis(A,B,C)
-
-
-    
-
-
-

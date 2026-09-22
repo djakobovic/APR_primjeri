@@ -66,6 +66,5 @@ if __name__ == '__main__':
     ax.text(-5.0,-3.8, f'r = {np.abs(-7-5j):4.2f}', ha='left',va='top')
     ax.text(1.0,-3.5,r'$\varphi$ ='+f'{np.angle(-7-5j):4.2f}', ha='center',va='bottom')
   
-    fig.savefig('sl.7.pdf')
+    fig.savefig('sl.4.7.pdf')
     fig.show()
-    

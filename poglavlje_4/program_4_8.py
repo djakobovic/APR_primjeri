@@ -5,7 +5,6 @@ Mjerenje trajanja računanja determinanta
 import numpy as np
 import scipy.linalg as sla
 from timeit import default_timer as sat
-
                  
 if __name__ == '__main__':
     for n in range(2,5):
