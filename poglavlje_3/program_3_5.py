@@ -1,7 +1,6 @@
 # program_3_5.py
 '''
-Primjeri formatiranja prikaza funkcija
-markerima i krivuljama
+Primjeri formatiranja prikaza funkcija markerima i krivuljama
 '''
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,6 +44,3 @@ if __name__ == '__main__':
 
     fig.savefig('sl.3.8.pdf')
     fig.show()
-
-
-

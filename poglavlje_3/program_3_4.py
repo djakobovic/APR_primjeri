@@ -18,5 +18,3 @@ ax.legend(loc='upper left', title='f(x)')
                     
 fig.savefig('sl.3.7.pdf')
 fig.show()
-      
-    

@@ -31,4 +31,3 @@ if __name__ == '__main__':
 
     fig.savefig('sl.3.17.pdf')
     fig.show()
-    

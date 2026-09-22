@@ -2,7 +2,6 @@
 '''
    Prikaz plohe f(x_0,x_1) = x_0**2+x_1**2
 '''
-
 import matplotlib.pyplot as plt
 import numpy as np
 

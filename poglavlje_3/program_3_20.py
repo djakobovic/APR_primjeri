@@ -17,7 +17,7 @@ razine = np.array([-1.85, -1.5, -1, 0, 1, 2, 3])
 lokacije = [(-0.20,0.10),(-0.5,0.5),(-0.75,0.75),(-1.0,1.0),
             (-1.3,1.3),(-1.4,1.4),(-1.65,1.65) ]
 
-fig,ax=plt.subplots()
+fig,ax = plt.subplots()
 
 if __name__ == '__main__':   
     ax.set(aspect='equal')
@@ -37,4 +37,3 @@ if __name__ == '__main__':
 
     fig.savefig('sl.3.22.pdf')
     fig.show()
-

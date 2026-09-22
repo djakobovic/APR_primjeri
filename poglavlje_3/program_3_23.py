@@ -1,7 +1,6 @@
 # program_3_23.py
 '''
 Prilagodba crteža uobičajenom matematičkom prikazu.
-
 '''
 import numpy as np
 import matplotlib.pyplot as plt

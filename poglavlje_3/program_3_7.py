@@ -1,7 +1,7 @@
 # program_3_7.py
 '''
 Crtanje koordinatnih ravnina s razlicitim mjerilima i
-s jednakim mjerilima koordintnih osi atributom aspect
+s jednakim mjerilima koordintnih osi atributom aspect='equal'
 '''
 import matplotlib.pyplot as plt
 import numpy as np
