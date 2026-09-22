@@ -2,7 +2,7 @@
 '''
 Tolerancija dviju vrijednosti x i y po kriteriju
     abs(x-y)<=atol + rtol*abs(y)
-Utvrđuje se gornja granična vrijednost ygr za koji je taj uvijet ispunjen
+Utvrđuje se gornja granična vrijednost ygr za koji je taj uvjet ispunjen
 pri različitim vrijednostima x
 '''
 import numpy as np

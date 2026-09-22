@@ -1,4 +1,4 @@
-# primjer_2_3.py
+# program_2_3.py
 '''
 Mjera jedinice zadnjeg mjesta jednaka je eps*2**eks
 '''

@@ -17,5 +17,3 @@ if __name__ == '__main__':
     print(f'b / a = {b / a}')
     print(f'a**2 + b**2 = {a**2 + b**2}')
     print(f'b**a = {b**a}')
-
-

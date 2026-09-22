@@ -2,10 +2,10 @@
 '''
 Aritmetičke operacije skalara s poretkom
 '''
-import program_2_7 as pr
+import numpy as np
 
-a = pr.a
-b = pr.b
+a = np.arange(0,10,2)
+b = np.arange(1,11,2)
 x = 2
 y = 5
 

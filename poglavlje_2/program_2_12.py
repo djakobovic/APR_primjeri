@@ -1,6 +1,6 @@
 # program_2_12.py
 '''
-Aritmeticke operacije skalara s 2D-poretkom
+Aritmetičke operacije skalara s 2D-poretkom
 '''
 import numpy as np
 

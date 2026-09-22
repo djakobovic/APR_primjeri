@@ -7,7 +7,6 @@ import numpy as np
 inf = np.finfo(dtype=float)
 
 if __name__ == '__main__':
-   
     print(f'{inf.bits:30d} broj bitova ')
     print(f'{inf.nmant:30d} broj bitova signifikanda')
     print(f'{inf.iexp:30d} broj bitova eksponenta')
@@ -18,3 +17,4 @@ if __name__ == '__main__':
     print(f'{inf.smallest_subnormal:30} minimalni denormirani broj')
     print(f'{inf.eps:30} strojni epsilon')
     print(f'{inf.precision:30d} preciznost')
+

@@ -1,4 +1,3 @@
-
 # program_2_13.py
 '''
 Sortiranje poredaka
@@ -15,5 +14,3 @@ if __name__ == '__main__':
     print(f'np.sort(A,axis=None).reshape(3,4) =\n{np.sort(A,axis=None).reshape(3,4)}')
     print(f'np.max(A) = {np.max(A)}')
     print(f'np.min(A) = {np.min(A)}')
-
-    

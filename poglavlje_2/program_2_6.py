@@ -5,7 +5,7 @@ Problemi s poredcima velikh brojeva
 import numpy as np
 
 h = [10**6,10**6+1,10**6+2]
-k = np.array(h)
+k = np.array(h, dtype = 'int32')
 
 if __name__ == '__main__':
     print(f'lista h      = {h}')

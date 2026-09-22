@@ -4,7 +4,6 @@ Primjer ispisa vrijednosti funkcije
 '''
 import numpy as np
 
-
 if __name__ == '__main__':
     x = np.linspace(-np.pi,np.pi,21)
     y = np.sin(x)

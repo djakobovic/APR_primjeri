@@ -3,7 +3,6 @@
 Modul numpy za smještanje cijelih brojeva u poredke odabire:
    - četiri bajta, t.j. 32 bita, što se označava kao tip int32 ili
    - osam bajtova, t.j. 64 bita, što se označava kao tip int64.
-   po osam bajtova
 '''
 import numpy as np
 # primjeri lista
